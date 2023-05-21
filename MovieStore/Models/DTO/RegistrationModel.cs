@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MovieStore.Models.Domain.DTO
+namespace MovieStore.Models.DTO
 {
-    public class Registration
+    public class RegistrationModel
     {
         [Required]
         public string Name { get; set; }

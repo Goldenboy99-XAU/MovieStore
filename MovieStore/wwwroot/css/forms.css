@@ -31,7 +31,7 @@ label{
   color: var(--primary-color);
 
 }
-.input{
+input[type='text'],select, input[type='password']{
     padding:0 0.5rem;
     border: 0;
     box-shadow:0 1px 3px 0 rgb(43, 43, 43) ;
